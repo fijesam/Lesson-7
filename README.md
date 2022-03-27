@@ -1,4 +1,25 @@
 # Lesson-7
+//four dimensional array
+using System;
+
+namespace four_dimensional_array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //lesson 7 exercise 1
+            int[,,,] matrixG = new int[2, 3, 5, 4]
+                                    { {{{1,2,3,4 },{1,2,3,4},{1,2,3,4},{1,2,3,4},{1,2,3,4}},
+                                    {{1,2,3,4 },{1,2,3,4},{1,2,3,4},{1,2,3,4},{1,2,3,4}},
+                                    {{1,2,3,4 },{1,2,3,4},{1,2,3,4},{1,2,3,4},{1,2,3,4}}},{ { { 1,2,3,4 },{ 1,2,3,4},{ 1,2,3,4},{ 1,2,3,4},{ 1,2,3,4} },
+                                    { { 1,2,3,4 },{ 1,2,3,4},{ 1,2,3,4},{ 1,2,3,4},{ 1,2,3,4} },
+                                    { { 1,2,3,4 },{ 1,2,3,4},{ 1,2,3,4},{ 1,2,3,4},{ 1,2,3,4} } } };
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+
 //Addition, Subtraction and Multiplication
 using System;
 
